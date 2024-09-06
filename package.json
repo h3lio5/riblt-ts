@@ -1,0 +1,31 @@
+{
+    "name": "riblt-ts",
+    "version": "1.0.0",
+    "description": "Rateless Inverse Bloom Lookup Table implementation in TypeScript",
+    "main": "dist/RIBLT.js",
+    "types": "dist/RIBLT.d.ts",
+    "scripts": {
+      "build": "tsc",
+      "test": "jest",
+      "lint": "eslint . --ext .ts",
+      "format": "prettier --write \"src/**/*.ts\" \"tests/**/*.ts\""
+    },
+    "keywords": ["RIBLT", "Bloom filter", "data structure"],
+    "author": "Your Name",
+    "license": "MIT",
+    "devDependencies": {
+      "@types/jest": "^27.0.0",
+      "@typescript-eslint/eslint-plugin": "^4.29.0",
+      "@typescript-eslint/parser": "^4.29.0",
+      "eslint": "^7.32.0",
+      "jest": "^27.0.0",
+      "prettier": "^2.3.2",
+      "ts-jest": "^27.0.0",
+      "typescript": "^4.3.5"
+    },
+    "engines": {
+      "node": ">=14.0.0",
+      "pnpm": ">=6.0.0"
+    }
+  }
+  
